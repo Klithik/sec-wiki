@@ -1,1 +1,0 @@
-Este tipo de conexion es usado mayoritariamente para el stream de informacion, ya que este protocolo no espera una respuesta para seguir enviando la informacion, si no que la envia de forma continua sin preocuparse por si el destinatario lo esta recibiendo

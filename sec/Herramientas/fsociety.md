@@ -1,1 +1,0 @@
-framework que contiene sets de herramientas para [[pentesting]]
