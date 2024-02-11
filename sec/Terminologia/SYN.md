@@ -1,0 +1,1 @@
+Es una version incompleta del protocolo [[TCP]], lo que lo hace mas rapido y potencialmente silencioso, ya que varias aplicaciones y servicios no almacenan informacion de estas conexiones al considerarlas fallidas
