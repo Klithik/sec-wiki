@@ -23,7 +23,7 @@ Tambien puede establecerse la intensidad de dicha busqueda, para especificar est
 	- Intensidad 9 con --version-all
 # Ejemplo de comando
 
-_nmap -Ss -p- -vvv --open -A 127.0.0.1 --max-rate 5000_
+`nmap -Ss -p- -vvv --open -A 127.0.0.1 --max-rate 5000`
 - -Ss: Establece tipo de escaneo [[SYN]]
 - -p-: Escanear todos los [[puerto]]s
 - -vvv: Entrega la mayor cantidad de informacion disponible
