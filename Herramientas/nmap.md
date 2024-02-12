@@ -29,6 +29,6 @@ Tambien puede establecerse la intensidad de dicha busqueda, para especificar est
 - -p-: Escanear todos los [[puerto]]s
 - -vvv: Entrega la mayor cantidad de informacion disponible
 - --open: el resultado final solo incluye [[puerto]]s abiertos encontrados
-- -A: Modo agresivo, ademas del escaneo de [[puerto]]s, intenta determinar la version de [[OS]] en el objetivo, y ejecuta scripts para determinar versiones de servicios presentes
+- -A: Modo agresivo, usa todas las funciones de nmap para descubrir la mayor cantidad de informacion posible
 - 127.0.0.1: [[ip]] de ejemplo, debe ser reemplazado por la del objetivo
 - --max-rate 5000: Velocidad de envio de paquetes, en este caso se establece en 5000, si bien aumenta considerablemente la velocidad del escaneo, tambien lo hace mas "ruidoso" por lo que se recomienda precaucion al usarlo dependiendo del nivel de defensa esperado
