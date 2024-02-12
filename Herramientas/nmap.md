@@ -14,7 +14,7 @@ Existen varios formatos de establecer que [[puerto]]s se quieren escanear:
 -  -F para un escaneo rapido, la seleccion de [[puerto]]s es similar al escaneo predeterminado, pero con esta opcion se reduce aun mas la cantidad
 - Para escanear solo los x [[puerto]]s mas comunes puede usarse la opcion --top-ports (numero)
 ## Verbose
-Esta opcion es usada para controlar la cantidad de informacion que entrega nmap como output, si no se especifica esta opcion se entrega la cantidad minima de informacion, a partir de ahi, se usa -v para aumentarlo, este puede ser usado hasta 3 veces (-vvv) para obtener la maxima salida de informacion
+Esta opcion es usada para controlar la cantidad de informacion que entrega nmap como output, si no se especifica esta opcion, se entrega la cantidad minima de informacion, a partir de ahi, se usa -v para aumentarlo, este puede ser usado hasta 3 veces (-vvv) para obtener la maxima salida de informacion
 ## Deteccion de versiones
 Esta funcion intentara determinar los servicios presentes en los [[puerto]]s abiertos encontrados, y sus respectivas versiones, para activarlo se usa la opcion -Sv.
 Tambien puede establecerse la intensidad de dicha busqueda, para especificar esto existen 2 formas:
