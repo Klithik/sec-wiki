@@ -1,3 +1,3 @@
-herramienta hecha en python para crear ataques basados en geolocalizacion, suele usar [[phishing]] para atraer a la victima a entrar a la url maliciosa y capturar su informacion de gps.
+Herramienta hecha en python para crear ataques basados en geolocalizacion, suele usar [[phishing]] para atraer a la victima a entrar a la url maliciosa y capturar su informacion de gps.
 
 Seeker tiene la capacidad de usar codigo html para obtener los permisos necesarios para acceder a la informacion de gps en el dispositivo cliente directamente desde el hardware, con lo que resulta mucho mas dificil para la victima hacer [[spoofing]] de su ubicacion real. En el caso de que dicho hardware no se encuentre en el dispositivo, usara la ubicacion entregada por gps

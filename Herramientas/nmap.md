@@ -1,3 +1,4 @@
+#recon #discovery
 Herramienta usada principalmente para el escaneo de [[puerto]]s.
 Para hacerlo envia solicitudes al objetivo, las cuales pueden ser en diferentes formatos dependiendo que se busca
 # Opciones

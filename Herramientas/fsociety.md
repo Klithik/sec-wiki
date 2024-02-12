@@ -1,1 +1,1 @@
-framework que contiene sets de herramientas para [[pentesting]]
+[[framework]] que contiene sets de herramientas para [[pentesting]]
