@@ -5,4 +5,3 @@ Dentro del ambito tecnologico, suele implicar atraer a un usuario a realizar una
 # Ataques de ingenieria social
 - [[phishing]]
 - [[vishing]]
-- 

@@ -1,1 +1,39 @@
 [[framework]] que contiene sets de herramientas para [[pentesting]]
+
+# Capacidades
+- Recoleccion de informacion
+	- [[nmap]]
+	- setoolkit
+	- Host to IP
+	- WPScan
+	- CMS Scanner
+	- XSStrike
+	- Dork
+	- Scan A Server's Users
+	- Crips
+- Ataques a contraseñas
+	- Cupp
+	- Ncrack
+- Pruebas inalambricas
+	- Reaver
+	- Pixiewps
+	- Bluetooth honeypot
+- [[sniffing]] & [[spoofing]]
+	- Setoolkit
+	- SSLtrip
+	- pyPHISER
+	- SMTP Mailer
+- Ataques Web
+	- Drupal Hacking
+	- Inulrbr
+	- Wordpress & Joomla Scanner
+	- Gravity Form Scanner
+	- File Upload Checker
+	- Wordpress Exploit Scanner
+	- Wordpress Plugins Scanner
+	- shell and directory finder
+- Ataques web privados
+- Pos explotacion
+	- Shell Checker
+	- POET
+	- Weeman
