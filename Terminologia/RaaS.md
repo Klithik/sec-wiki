@@ -1,0 +1,1 @@
+_Ransomware as a Service_, es un servicio donde un grupo desarrolla un ransomware, el cual entrega a un tercero, quien realiza el ataque, todo esto a cambio de una parte del pago del rescate. 

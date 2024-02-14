@@ -1,0 +1,1 @@
+Mide la aleatoriedad de los datos en el archivo, y resulta util para revelar informacion oculta sobre un archivo. La escala con la que se mide va de 0 a 9,esto significa, que mientras mas puedan comprimirse los datos de un archivo, menor sera la entropia. 

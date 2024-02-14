@@ -11,3 +11,6 @@ La mayoria de sistemas de deteccion se basan en una [[base de datos]] de los ran
 	- Eliminacion de archivos
 # Ejemplos de ransomware
 - [[WannaCry]]
+- [[BlackCat]]
+- [[Lockbit]]
+- [[Cl0p]]
