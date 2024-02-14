@@ -3,7 +3,7 @@ Herramienta usada principalmente para el escaneo de [[puerto]]s.
 Para hacerlo envia solicitudes al objetivo, las cuales pueden ser en diferentes formatos dependiendo que se busca
 # Opciones
 ## Tipo de escaneo -S
-- Ss: Escaneo de tipo [[SYN]]
+- Ss: Escaneo de tipo [[SYN]], durante este escaneo, el protocolo [[TCP]] es interrumpido al recibir al recibir el paquete [[SYN-ACK]], con lo cual se logra una mayor velocidad comparado a un escaneo [[TCP]]
 - Su: Escaneo de tipo [[UDP]], normalmente usado para buscar servicios de streaming o similares
 ## Puertos objetivo -p
 Existen varios formatos de establecer que [[puerto]]s se quieren escanear:

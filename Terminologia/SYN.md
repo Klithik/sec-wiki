@@ -1,1 +1,1 @@
-Es una version incompleta del protocolo [[TCP]], lo que lo hace mas rapido y potencialmente silencioso, ya que varias aplicaciones y servicios no almacenan informacion de estas conexiones al considerarlas fallidas
+Es la señal de sincronizacion en dentro del protocolo [[TCP]] y es enviada por el dispositivo que inicia la conexión. El envio de este [[paquete]] indica la intención de establecer conexión.
