@@ -1,1 +1,0 @@
-awa de uwu
