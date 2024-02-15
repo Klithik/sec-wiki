@@ -173,6 +173,7 @@
   },
   "active": "a62ee1f89aaacda2",
   "lastOpenFiles": [
+    "Terminologia/SSL.md",
     "Herramientas/maskphish.md",
     "SSL.md",
     "Imagenes/Diagrama_TCP.png",
@@ -200,7 +201,6 @@
     "Terminologia/pentesting.md",
     "Terminologia",
     "Herramientas",
-    "Welcome.md",
-    "create a link.md"
+    "Welcome.md"
   ]
 }
