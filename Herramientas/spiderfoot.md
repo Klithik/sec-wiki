@@ -1,0 +1,1 @@
+Herramienta de reconocimiento que hace solicitudes a fuentes abiertas de forma automatica para encontrar informacion sobre cosas como nombres de usuario, [[ip]]s, email, [[hostname]]s.
