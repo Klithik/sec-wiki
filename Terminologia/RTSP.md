@@ -1,0 +1,1 @@
+_Real Time Streaming Protocol_, puede ser accedido usando reproductores de contenido audiovisual como VLC media player

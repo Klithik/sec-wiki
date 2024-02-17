@@ -5,3 +5,5 @@ Los puertos pueden dividirse en 3 categorias:
 - Bien conocidos (0-1023) asignados a servicios por la [[IANA]]
 - Registrados (1024-49151)
 - Dinamicos o privados (49152-65535) que suelen usarse para conexiones temporales
+# Puertos de interes
+- 554: [[RTSP]] usado principalmente para transmitir audiovisual, lo mas comun es que sea usado para camaras de seguridad
