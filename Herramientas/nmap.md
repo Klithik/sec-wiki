@@ -3,7 +3,7 @@ Herramienta usada principalmente para el escaneo de [[puerto]]s.
 Para hacerlo envia solicitudes al objetivo, las cuales pueden ser en diferentes formatos dependiendo que se busca
 # Opciones
 ## Tipo de escaneo -S
-- Ss: Escaneo de tipo [[SYN]], durante este escaneo, el protocolo [[TCP]] es interrumpido al recibir al recibir el paquete [[SYN-ACK]], con lo cual se logra una mayor velocidad comparado a un escaneo [[TCP]]
+- Ss: Escaneo de tipo [[SYN]], durante este escaneo, el protocolo [[TCP]] es interrumpido al recibir al recibir el [[paquete]] [[SYN-ACK]], con lo cual se logra una mayor velocidad comparado a un escaneo [[TCP]]
 - Su: Escaneo de tipo [[UDP]], normalmente usado para buscar servicios de streaming o similares
 ## Puertos objetivo -p
 Existen varios formatos de establecer que [[puerto]]s se quieren escanear:
@@ -31,4 +31,4 @@ Tambien puede establecerse la intensidad de dicha busqueda, para especificar est
 - --open: el resultado final solo incluye [[puerto]]s abiertos encontrados
 - -A: Modo agresivo, usa todas las funciones de nmap para descubrir la mayor cantidad de informacion posible
 - 127.0.0.1: [[ip]] de ejemplo, debe ser reemplazado por la del objetivo
-- --max-rate 5000: Velocidad de envio de paquetes, en este caso se establece en 5000, si bien aumenta considerablemente la velocidad del escaneo, tambien lo hace mas "ruidoso" por lo que se recomienda precaucion al usarlo dependiendo del nivel de defensa esperado
+- --max-rate 5000: Velocidad de envio de [[paquete]]s, en este caso se establece en 5000, si bien aumenta considerablemente la velocidad del escaneo, tambien lo hace mas "ruidoso" por lo que se recomienda precaucion al usarlo dependiendo del nivel de defensa esperado

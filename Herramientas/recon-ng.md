@@ -1,1 +1,1 @@
-Herramienta escrita en python usada para hacer analisis basado en fuentes web de acceso publico. Se caracteriza por su soporte con modulos de terceros, por  lo que no se limita a sus capacidades oficiales iniciales.
+framework de herramientas, tiene capacidades principalmente de reconocimiento y descubrimiento, aunque tambien tiene algunos modulos de explotacion. Se caracteriza por su soporte con modulos de terceros, por  lo que no se limita a sus capacidades oficiales iniciales.

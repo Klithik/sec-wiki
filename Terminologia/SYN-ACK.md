@@ -1,1 +1,1 @@
-Respuesta que un equipo da al paquete [[SYN]] recibido en el protocolo [[TCP]], indicando su disposición a establecer conexión.
+Respuesta que un equipo da al [[paquete]] [[SYN]] recibido en el protocolo [[TCP]], indicando su disposición a establecer conexión.
