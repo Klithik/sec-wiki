@@ -1,4 +1,4 @@
-nHerramienta que automatiza ataques con [[inyeccion SQL]]
+Herramienta que automatiza ataques con [[inyeccion SQL]]
 # Ejemplos de uso
 
 ## Verificar si variable es inyectable
