@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "66b38aafa0894bd6",
+        "id": "444336cd63ec1d4b",
         "type": "tabs",
         "children": [
           {
-            "id": "e83a3241dc36f199",
+            "id": "1a666479b2d44a56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terminologia/gusano.md",
+                "file": "Herramientas/epieos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terminologia/gusano.md",
+                "file": "Herramientas/epieos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terminologia/gusano.md",
+                "file": "Herramientas/epieos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terminologia/gusano.md"
+                "file": "Herramientas/epieos.md"
               }
             }
           }
@@ -146,27 +146,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e83a3241dc36f199",
+  "active": "1a666479b2d44a56",
   "lastOpenFiles": [
+    "thatsthem.md",
+    "Herramientas/epieos.md",
+    "Terminologia/TCP.md",
+    "Terminologia/SYN.md",
+    "Terminologia/puerto.md",
+    "Terminologia/gusano.md",
     "Terminologia/SSL.md",
-    "SSL.md",
+    "Terminologia/SSL 1.md",
     "Terminologia/vishing.md",
     "Terminologia/UDP.md",
     "Terminologia/troyano.md",
-    "Terminologia/TCP.md",
-    "Terminologia/SYN.md",
     "Terminologia/SYN-ACK.md",
     "Terminologia/scrap.md",
     "Terminologia/ransomware.md",
     "Terminologia/RaaS.md",
-    "Terminologia/puerto.md",
     "Terminologia/PtH.md",
     "Terminologia/pixel espia.md",
     "Terminologia/phishing.md",
     "Terminologia/OSINT.md",
     "Terminologia/malware.md",
     "Terminologia/ingenieria social.md",
-    "Terminologia/gusano.md",
     "Terminologia/entropia.md",
     "Terminologia",
     "Malware/Lockbit.md",
@@ -176,8 +178,6 @@
     "Imagenes/Diagrama_TCP.png",
     "Imagenes",
     "Herramientas/steghide.md",
-    "Herramientas/seeker.md",
-    "Herramientas/PsExec.md",
     "Herramientas"
   ]
 }
