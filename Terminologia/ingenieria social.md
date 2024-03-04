@@ -1,7 +1,7 @@
-Es la manipulacion psicologica de un individuo para obtener informacion o privilegios que no le corresponden. Si bien es ampliamente utilizado en la seguridad informatica, en realidad es aplicable fuera de este ambito tambien.
+Es la manipulación psicológica de un individuo para obtener información o privilegios que no le corresponden. Si bien es ampliamente utilizado en la seguridad informática, en realidad es aplicable fuera de este ámbito también.
 
-Dentro del ambito tecnologico, suele implicar atraer a un usuario a realizar una accion que no deberia o entregar informacion que no deberia.
+Dentro del ámbito tecnológico, suele implicar atraer a un usuario a realizar una acción que no debería o entregar información que no debería.
 
-# Ataques de ingenieria social
+# Ataques de ingeniería social
 - [[phishing]]
 - [[vishing]]
