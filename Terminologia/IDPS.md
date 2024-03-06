@@ -1,0 +1,1 @@
+_Sistema de Deteccion y Prevencion de Intrusiones de red_, se puede considerar una combinacion entre [[IDS]] e [[IPS]]
