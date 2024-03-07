@@ -1,0 +1,1 @@
+El mensaje ping es la denominación que se le da tanto al eco como a la respuesta de eco en el protocolo [[ICMP]].
