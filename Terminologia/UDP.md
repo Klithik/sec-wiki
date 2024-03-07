@@ -1,1 +1,2 @@
-Este tipo de conexion es usado mayoritariamente para el stream de informacion, ya que este protocolo no espera una respuesta para seguir enviando la informacion, si no que la envia de forma continua sin preocuparse por si el destinatario lo esta recibiendo
+Protocolo de envió de información, a diferencia de la mayoría de otros protocolos, este envía los [[paquetes]] de información, sin establecer previamente una conexión ni indicar el orden de los paquetes, tampoco comprueba que los paquetes lleguen a su destino como estaba previste.
+Este protocolo es usado cuando es necesario enviar una gran cantidad de información, por eso es usado en servicios como el streaming multimedia.
