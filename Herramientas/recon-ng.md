@@ -1,1 +1,1 @@
-framework de herramientas, tiene capacidades principalmente de reconocimiento y descubrimiento, aunque tambien tiene algunos modulos de explotacion. Se caracteriza por su soporte con modulos de terceros, por  lo que no se limita a sus capacidades oficiales iniciales.
+framework de herramientas, tiene capacidades principalmente de reconocimiento y descubrimiento, aunque también tiene algunos módulos de explotación. Se caracteriza por su soporte con módulos de terceros, por  lo que no se limita a sus capacidades oficiales iniciales.

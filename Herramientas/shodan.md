@@ -1,2 +1,2 @@
-Servicio que puede ser usado como basicamente un motor de busqueda de [[IoT]], shodan lanza de forma rutinaria analisis similares a [[nmap]] a todas las [[ip]]s.
+Servicio que puede ser usado básicamente como un motor de búsqueda de [[IoT]], shodan lanza de forma rutinaria análisis similares a [[nmap]] a todas las [[ip]]s.
 
