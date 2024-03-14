@@ -13,6 +13,6 @@ Una vez establecida la conexion es posible iniciar la transferencia de datos, du
 ## Numeros iniciales de secuencia
 Estos numeros de secuencia son usados para identificar los datos dentro del flujo de bytes y poder identificar los bytes de los datos de la aplicacion.
 
-En todo segmento TCP hay 2 numeros de secuencia; el numero de secuencia y el numero de asentimiento. Un emisor TCP se refiere como numero de secuencia a su propio numero de secuencia, mientras que con el numero de asentimiento se refiere al numero de secuencia del receptor. 
+En todo segmento TCP hay 2 números de secuencia; uno asociado al emisor y otro al receptor, los nombres de cada uno son dependientes del punto de vista, todo emisor se refiere a numero de secuencia de esa misma forma, numero de secuencia, mientras que al del receptor se le llama numero de asentimiento.
 # Diagrama de interacciones TCP
 ![[Diagrama_TCP.png]]
