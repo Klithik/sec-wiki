@@ -10,9 +10,9 @@ Una vez finalizado este intercambio de [[paquete]]s, se entiende que ambos extre
 # Transferencia de datos
 Una vez establecida la conexion es posible iniciar la transferencia de datos, durante dicha transferencia se llevan a cabo diferentes procesos para establecer la fiabilidad y robustez del protocolo.
 
-## Numeros iniciales de secuencia
+## Numeros de secuencia
 Estos numeros de secuencia son usados para identificar los datos dentro del flujo de bytes y poder identificar los bytes de los datos de la aplicacion.
 
-En todo segmento TCP hay 2 números de secuencia; uno asociado al emisor y otro al receptor, los nombres de cada uno son dependientes del punto de vista, todo emisor se refiere a numero de secuencia de esa misma forma, numero de secuencia, mientras que al del receptor se le llama numero de asentimiento.
+En todo segmento TCP hay 2 números de secuencia; uno asociado al emisor y otro al receptor, los nombres de cada uno son dependientes del punto de vista, todo emisor se refiere a numero de secuencia de esa misma forma, numero de secuencia, mientras que al del receptor se le llama numero de asentimiento. Para mantener la fiabilidad el receptor asiente a la transferencia de información para confirmar su recepción. Esta función fue mejorada añadiendo el [[SACK]].
 # Diagrama de interacciones TCP
 ![[Diagrama_TCP.png]]
