@@ -1,0 +1,1 @@
+_Selective Acknowledgement_ es una variación del paquete [[ACK]] que permite asentir la recepción de cierta información especifica para que el emisor solo tenga que retransmitir la parte especifica que falta del paquete
