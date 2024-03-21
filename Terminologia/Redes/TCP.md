@@ -8,7 +8,7 @@ Cuando dos dispositivos buscan establecer conexión usan el el llamado _threeway
 Una vez finalizado este intercambio de [[paquete]]s, se entiende que ambos extremos de la conexión están sincronizados y listos para comenzar la transmisión de información.
 
 # Transferencia de datos
-Una vez establecida la conexion es posible iniciar la transferencia de datos, durante dicha transferencia se llevan a cabo diferentes procesos para establecer la fiabilidad y robustez del protocolo.
+Una vez establecida la conexión es posible iniciar la transferencia de datos, durante dicha transferencia se llevan a cabo diferentes procesos para establecer la fiabilidad y robustez del protocolo.
 
 ## Numeros de secuencia
 Estos numeros de secuencia son usados para identificar los datos dentro del flujo de bytes y poder identificar los bytes de los datos de la aplicacion.
