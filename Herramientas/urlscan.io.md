@@ -1,1 +1,1 @@
-Analiza urls y paginas web para descubrir potenciales vulnerabilidades. Su parte mas llamativa es la capacidad de hacer un seguimiento del comportamiento de una pagina, como las ejecuciones de javascript.
+qAnaliza urls y paginas web para descubrir potenciales vulnerabilidades. Su parte mas llamativa es la capacidad de hacer un seguimiento del comportamiento de una pagina, como las ejecuciones de javascript.
