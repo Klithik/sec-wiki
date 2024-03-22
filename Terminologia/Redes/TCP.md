@@ -1,4 +1,4 @@
-_Transmission Control Protocol_ es uno de los principales protocolos de internet, orientado a establecer, mantener y finalizar una conexion entre dispositivos. El protocolo busca garantizar que la información se entregue de forma ordenada y sin errores, y realiza retransmisiones en caso de perdida o corrupción de información.
+_Transmission Control Protocol_ es uno de los principales protocolos de internet, orientado a establecer, mantener y finalizar una conexión entre dispositivos. El protocolo busca garantizar que la información se entregue de forma ordenada y sin errores, y realiza retransmisiones en caso de perdida o corrupción de información.
 
 # Establecimiento de conexión con TCP
 Cuando dos dispositivos buscan establecer conexión usan el el llamado _threeway handshake_, esta interacción se ve de la siguiente forma:
