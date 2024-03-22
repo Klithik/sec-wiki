@@ -1,0 +1,1 @@
+Esta tecnologia es usada generalmente para validar la identidad de alguna entidad como un servidor, para esto se utilizan llaves de encriptacion unidireccionales, que permiten a cualquiera desencriptar la informacion contenida en un mensaje, pero que solo el emisor puede encriptar con su respectiva [[llave privada]].

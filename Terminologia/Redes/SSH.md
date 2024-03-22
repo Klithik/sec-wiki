@@ -1,6 +1,13 @@
 _Secure SHell_ es una forma mas segura de enviar comandos a maquinas externas que nacio como respuesta al aumento de [[sniffing]] que afectaba a [[telnet]]. Al iniciar una conexion SSH se establece una conexion [[TCP]] (tambien es posible usar SSH sobre un [[web socket]] pero generalmente no es asi).
 # Contenido del paquete de SSH
-![[contenidossh.png]]
+
+|        Longitud de paquete         |
+| :--------------------------------: |
+|        Cantidad de padding         |
+|              Mensaje               |
+|              Padding               |
+| Código de autenticación de mensaje |
+
 - La longitud del [[paquete]] simplemente es para informar que tan grande es el [[paquete]] que se esta enviando, contiene 4 [[byte]]s de informacion
 - Cantidad de padding establece cuanto del mismo se puede esperar. El padding es informacion random que se mezclara con el [[paquete]] y la cantidad usada puede variar, ahi esta la importancia de este fragmente, el cual usa 1 [[byte]]
 - El mensaje que desea enviar el usuario
