@@ -1,0 +1,3 @@
+En 2014 investigadores descubren una vulnerabilidad en el diseño de [[SSL]] 3.0 (CVE-2014-3566) que lo hace susceptible a un [[ataque de relleno]]. En promedio, un atacante necesita hacer 256 peticiones [[SSL]] 3.0 para revelar un byte de información cifrada.
+
+Si bien esta vulnerabilidad solo existe en [[SSL]] 3.0 y la mayoría de cliente-servidor usa [[TLS]] 1.0 o superior, la mayoría de navegadores permiten rebajar a [[SSL]] 3.0 si el _handshake_ de [[TLS]] falla. Debido a lo anterior, el [[MITM]] tendría que llevar a cabo un ataque [[rollback]] antes de poder explotar esta vulnerabilidad.

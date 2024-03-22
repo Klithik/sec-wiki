@@ -24,6 +24,24 @@ También puede establecerse la intensidad de dicha búsqueda, para especificar e
 - Nivel expresado de forma literal:
 	- Intensidad 2 con --version-light
 	- Intensidad 9 con --version-all
+## Scripts
+nmap tiene la capacidad de ejecutar scripts sobre el objetivo, ya sean los que vienen por defecto con la herramienta, hechos por el mismo usuario o por algún tercero (esto ultimo no se recomienda, ya que es posible usar scripts de nmap de forma maliciosa contra quien lo ejecuta). 
+### Uso
+Para hacer uso de los scripts se encuentran dos formas generales, si lo que se busca es la ejecución de los scripts por defecto recomendados se puede utilizar la flag `-sC`. Sin embargo, se puede ser mas especifico con la flag `--script`;
+Este ultimo parámetro puede ser usado para, por ejemplo, ejecutar todos los scripts de una categoría como podría ser `--script auth`, asi como puede ser usado para entregar argumentos a scripts llamados con `--script-args <args>`
+### Categorías
+Los scripts se dividen en categorías para facilitar su uso en conjunto, estas categorías pueden ser definidas por la función de los scripts u otros parámetros de interés, algunas de las mas importantes son:
+- auth: Revisan o se saltan credenciales de acceso, un ejemplo de un script en esta categoría vendría siendo ftp-anon, el cual es usado para revisar si el usuario [[anon FTP]] esta habilitado
+- broadcast: Se encuentran posibles objetivos adicionales revisando los destinatarios de un [[broadcast]], si se quiere que estos sean automáticamente agregados a la lista de objetivos a escanear se puede utilizar el argumento `newtargets`
+- default: Lista predeterminada de scripts a ejecutar por nmap, los criterios usados para decidir cuales entran en esta categoría suelen centrarse en:
+	- Velocidad
+	- Utilidad
+	- Cantidad de texto de salida
+	- Fiabilidad
+	- Grado de intrusión
+	- Privacidad
+- external: En general, el trafico generado por nmap durante un escaneo es estrictamente entre el responsable del escaneo y su objetivo, sin embargo, algunos scripts pueden generar trafico a terceros, todos estos son puestos en esta sección. Un ejemplo de lo anterior es whois-ip, el cual busca información del objetivo en la base de datos de whois
+Si se quiere ver mas sobre las demás categorías se puede visitar https://nmap.org/book/nse-usage.html#nse-categories
 # Ejemplo de comando
 
 `nmap -Ss -p- -vvv --open -A 127.0.0.1 --max-rate 5000`
