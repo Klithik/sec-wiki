@@ -1,4 +1,4 @@
-#recon 
+#recon #OSINT 
 Herramienta de [[OSINT]] que utiliza la API de instagram para [[scrap]]ear información de perfiles de instagram.
 La herramienta es capaz de obtener:
 - Todas las descripciones de todas las fotos de un usuario

@@ -14,4 +14,4 @@ Para este ejemplo, la tarjeta de red debe estar previamente configurada en modo 
 `exit`
 `[[hcxpcapngtool]] -o (archivo para output) (archivo .pcap anterior)` 
 `hashcat -m 22000 (output del comando aterior) (diccionario)`
-En este caso, el 22000 esta estableciendo el tipo de hash, el usado es el correspondiente a protocolos de red
+En este caso, el 22000 esta estableciendo el tipo de [[hash]], el usado es el correspondiente a protocolos de red
