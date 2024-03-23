@@ -1,6 +1,6 @@
 Originalmente conocido como [[SSL]] 3.1, TLS es un protocolo para encriptar las comunicaciones entre aplicaciones web y servidores, así como los navegadores cargando una pagina web. También es usado para encriptar otros servicios como VoIP, correos electrónicos  u otros.
 
-[[https]] es, esencialmente, la aplicación de la encriptación TLS sobre [[http]], y el objetivo de su uso se divide en 3 partes:
+[[http|https]] es, esencialmente, la aplicación de la encriptación TLS sobre [[http]], y el objetivo de su uso se divide en 3 partes:
 - Ocultar la información transferida de terceros
 - Garantizar la identidad de las partes, es decir, que sean quienes dicen ser
 - Garantizar que el contenido de la comunicación no ha sido modificado (por ataques como [[MITM]])

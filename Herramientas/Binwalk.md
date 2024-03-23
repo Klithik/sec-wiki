@@ -13,5 +13,5 @@ binwalk -h
 
 
 temas relacionados 
-[[Esteganografía]]
+[[esteganografia]]
 [[open-source]]

@@ -50,5 +50,5 @@ Si se quiere ver mas sobre las demás categorías se puede visitar https://nmap.
 - -vvv: Entrega la mayor cantidad de información disponible
 - --open: el resultado final solo incluye [[puerto]]s abiertos encontrados
 - -A: Modo agresivo, usa todas las funciones de nmap para descubrir la mayor cantidad de información posible
-- 127.0.0.1: [[ip]] de ejemplo, debe ser reemplazado por la del objetivo
+- 127.0.0.1: [[IP]] de ejemplo, debe ser reemplazado por la del objetivo
 - --max-rate 5000: Velocidad de envio de [[paquete]]s, en este caso se establece en 5000, si bien aumenta considerablemente la velocidad del escaneo, también lo hace mas "ruidoso" por lo que se recomienda precaución al usarlo dependiendo del nivel de defensa esperado
