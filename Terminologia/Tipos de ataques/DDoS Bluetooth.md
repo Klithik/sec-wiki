@@ -1,0 +1,2 @@
+#bluetooth
+El atacante inunda un objetivo con solicitudes de conexión al dispositivo objetivo, eventualmente, logrando que este deje de funcionar. Esta técnica solo es efectiva si dicho dispositivo no esta configurado para limitar las conexiones entrantes, dicha configuración esta presente en la mayoría de dispositivos modernos.
