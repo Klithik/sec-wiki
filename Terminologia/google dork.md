@@ -4,6 +4,6 @@
 - filetype: Usado para hacer que los resultados de la búsqueda sea exclusivo de un tipo. Por ejemplo `filetype:pdf`
 - "": Las comillas son usadas para buscar cadenas de texto que aparezcan de forma exacta. Por ejemplo, la búsqueda de `"Cazuela de pollo"` únicamente mostrara resultados donde esa cadena de texto aparezca de forma exacta.
 # Operadores
-En la busqueda es posible usar operadores para encadenar y aportar logica a filtros
+En la búsqueda es posible usar operadores para encadenar y aportar lógica a filtros
 - OR
 - AND
