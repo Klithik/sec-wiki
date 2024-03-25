@@ -1,1 +1,1 @@
-_Address Resolution Protocol_ es el encargado de encontrar la direccion [[MAC]] que corresponde a cada [[IP|IPv4]] de la red.
+_Address Resolution Protocol_ es el encargado de encontrar la dirección [[MAC]] que corresponde a cada [[IP|IPv4]] de la red.
