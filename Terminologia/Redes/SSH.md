@@ -15,6 +15,6 @@ _Secure SHell_ es una forma mas segura de enviar comandos a maquinas externas qu
 - Código de autenticación, también llamado tag, se usa para verificar que el contenido del [[paquete]] no ha sido modificado con técnicas como [[MITM]]
 También es común que se use alguna forma de comprensión sobre el [[paquete]]
 
-Una vez formado el [[paquete]], se encripta de forma que si se usa [[sniffing]], lo único en texto plano que se observaría son la longitud del [[paquete]] y el código de autenticacion. La forma de encriptacion a usar es negociada entre el cliente y el servidor, lógicamente es posible para el servidor restringir la encriptacion a usar para no permitir algoritmos de encriptacion más débiles.
+Una vez formado el [[paquete]], se encripta de forma que si se usa [[sniffing]], lo único en texto plano que se observaría son la longitud del [[paquete]] y el código de autenticación. La forma de encriptación a usar es negociada entre el cliente y el servidor, lógicamente es posible para el servidor restringir la encriptación a usar para no permitir algoritmos de encriptación más débiles.
 # Canales
 Es posible utilizar canales durante conexiones SSH, lo cual hace posible tener múltiples conexiones SSH al mismo tiempo. También permite redirigir casi cualquier cosa a través de SSH, por ejemplo, en linux el administrador de ventanas mas común es X11, el cual es técnicamente posible enrutar a una maquina remota a través de SSH, permitiendo una forma de pantalla remota.
