@@ -1,1 +1,1 @@
-_Sistema de Deteccion de Intrusos_
+_Sistema de Detección de Intrusos_

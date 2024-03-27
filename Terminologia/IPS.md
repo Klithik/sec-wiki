@@ -1,1 +1,1 @@
-_Sistema de Proteccion contra Intrusos_
+_Sistema de Protección contra Intrusos_
