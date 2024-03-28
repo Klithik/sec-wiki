@@ -10,20 +10,20 @@ Existen varios formatos para establecer que [[puerto]]s se quieren escanear:
 - Si no se especifica ningún puerto, nmap escaneara los 1,000 puertos mas comunes
 - -p- es usado para que nmap escanee todos los puertos
 - -p(especificación): se puede especificar un [[puerto]] o un conjunto de estos para limitar el escaneo, su uso es el siguiente:
-	- Para escanear SOLO el [[puerto]] 22 se usaría -p22, mientras que para establecer rango del 22 al 80 se usaría -p22-80, lo anterior escaneara todos los [[puerto]]s en ese rango incluyendo ambos limites. Otra posibilidad es encadenar rangos o [[puerto]]s, por ej: -p80,443,8080-9090
+	- Para escanear SOLO el [[puerto]] 22 se usaría `-p22`, mientras que para establecer rango del 22 al 80 se usaría `-p22-80`, lo anterior escaneara todos los [[puerto]]s en ese rango incluyendo ambos limites. Otra posibilidad es encadenar rangos o [[puerto]]s, por ej: `-p80,443,8080-9090`
 -  -F para un escaneo rápido, la selección de [[puerto]]s es similar al escaneo predeterminado, pero con esta opción se reduce aun mas la cantidad
 - Para escanear solo los x [[puerto]]s mas comunes puede usarse la opción --top-ports (numero)
 ## Verbose
-Esta opción es usada para controlar la cantidad de información que entrega nmap como output, si no se especifica esta opción, se entrega la cantidad mínima de información, a partir de ahí, se usa -v para aumentarlo, este puede ser usado hasta 3 veces (-vvv) para obtener la máxima salida de información
+Esta opción es usada para controlar la cantidad de información que entrega nmap como output, si no se especifica esta opción, se entrega la cantidad mínima de información, a partir de ahí, se usa `-v` para aumentarlo, este puede ser usado hasta 3 veces (`-vvv`) para obtener la máxima salida de información
 
 Es posible usar la bandera `--open` para limitar el output del resultado a solo los puertos abiertos, esto es recomendable a menos que se desee depurar algo.
 ## Detección de versiones
-Esta función intentara determinar los servicios presentes en los [[puerto]]s abiertos encontrados, y sus respectivas versiones, para activarlo se usa la opcion -Sv.
+Esta función intentara determinar los servicios presentes en los [[puerto]]s abiertos encontrados, y sus respectivas versiones, para activarlo se usa la opcion `-Sv`.
 También puede establecerse la intensidad de dicha búsqueda, para especificar esto existen 2 formas:
 - Nivel numérico de intensidad con --version-intensity (nivel). El nivel es un numero entero de 0 (baja intensidad) a 9 (máxima intensidad)
 - Nivel expresado de forma literal:
-	- Intensidad 2 con --version-light
-	- Intensidad 9 con --version-all
+	- Intensidad 2 con `--version-light`
+	- Intensidad 9 con `--version-all`
 ## Scripts
 nmap tiene la capacidad de ejecutar scripts sobre el objetivo, ya sean los que vienen por defecto con la herramienta, hechos por el mismo usuario o por algún tercero (esto ultimo no se recomienda, ya que es posible usar scripts de nmap de forma maliciosa contra quien lo ejecuta). 
 ### Uso

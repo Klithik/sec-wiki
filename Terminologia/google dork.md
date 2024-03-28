@@ -1,3 +1,8 @@
+---
+aliases:
+  - dorking
+  - dork
+---
 # Filtros y ejemplos de uso
 - insite: Es usado para filtrar el sitio web que se busca en los comentarios. Por ejemplo `insite: linkedin.com` hará que todos los resultados a una búsqueda sean exclusivamente dentro del sitio linkedin.
 - intext: Busca una cadena de texto especifica dentro del texto del sitio, en particular, es bueno si lo que se busca es evitar que la cadena sea el titulo o url de una búsqueda. Por ejemplo `intext: cazuela`

@@ -1,2 +1,2 @@
-#osint
+#OSINT 
 Se destaca en analisis de relaciones entre entidades y ayuda al usuario a mapear de forma sencilla dichas relaciones. Entidades pueden ser organizaciones, empresas, cuentas de redes sociales, etc.
