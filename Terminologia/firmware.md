@@ -1,0 +1,1 @@
+Código que controla hardware de un equipo
