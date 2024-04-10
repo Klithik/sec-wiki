@@ -1,0 +1,1 @@
+_Domain-based Message Authentification Reporting and Conformance_ es un protocolo de autenticacion de código abierto para correo electrónico. Este protocolo entrega la capacidad al dueño de un dominio de confiar en los correos dentro del mismo dominio, detectando y evitando [[spoofing]] de correo electrónico.
