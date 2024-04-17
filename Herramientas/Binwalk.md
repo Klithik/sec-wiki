@@ -1,4 +1,4 @@
-Herramienta hecha en Python usada para extraer codigo o ejecutables escondidos en una imagen
+Herramienta  de [[esteganografia]] hecha en Python usada para extraer codigo o ejecutables escondidos en una imagen
 
 la opcion más usada es
 
@@ -10,8 +10,3 @@ para obtener más información ejecuta el comando
 ```
 binwalk -h
 ```
-
-
-temas relacionados 
-[[esteganografia]]
-[[open-source]]
